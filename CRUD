@@ -1,3 +1,8 @@
 SELECT * FROM demo;
 INSERT INTO demo (name)
 	VALUES('Nano');
+    UPDATE demo
+    SET name='Nano'
+    WHERE name;
+    DELETE FROM demo
+    WHERE name='Nano';
