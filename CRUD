@@ -1,0 +1,3 @@
+SELECT * FROM demo;
+INSERT INTO demo (name)
+	VALUES('Nano');
